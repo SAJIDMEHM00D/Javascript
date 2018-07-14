@@ -1,17 +1,26 @@
-var main=[["Saif","Umer","Hamza","Taha"],[1,2,3,4],
-["Islamabad","Lahore","Karachi","Peshawar"],
+var names=["Saif","Umer","Hamza","Taha"];
+var main=[[1,2,3,4],["Islamabad","Lahore","Karachi","Peshawar"],
 ["saif@gmail.com","umer@gmail.com","hamza@gmail.com","taha@gmail.com"]];
 
-record=main[0].map(function (val){
-    
-    return val;
+arr=main[0].map(function(val){
 
-})
-
+    arr1=main[1].map(function(val1){
+        arr2=main[2].map(function(val2){
+            return val2;
+        })
+           return val1;
+   })
+   return val;
+   })
+   for(var i=0;i<names.length;i++){
+   console.log("Hi, My name is "+names[i]+".")
+   console.log("My roll number is "+arr[i]+". I lives in "
+   +arr1[i]+" City and My Email is "+arr2[i]+".");
+   }
 
 
 var students=["imtiaz","sajid","usama"];
-var id=[1,2,3];
+var id=[5,6,7];
 var city=["Isl","Lah","Pesh"];
 var adress=["220-E","221-E","222-E"]
 var records=[id,city,adress]
