@@ -1,7 +1,10 @@
 var names=["Saif","Umer","Hamza","Taha"];
+names.push("Sajid");
 var main=[[1,2,3,4],["Islamabad","Lahore","Karachi","Peshawar"],
 ["saif@gmail.com","umer@gmail.com","hamza@gmail.com","taha@gmail.com"]];
-
+main[0].push(5);
+main[1].push("Quetta");
+main[2].push("sajid@gmail.com");
 arr=main[0].map(function(val){
 
     arr1=main[1].map(function(val1){
@@ -17,6 +20,7 @@ arr=main[0].map(function(val){
    console.log("My roll number is "+arr[i]+". I lives in "
    +arr1[i]+" City and My Email is "+arr2[i]+".");
    }
+  
 
 
 var students=["imtiaz","sajid","usama"];
